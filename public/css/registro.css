@@ -1,0 +1,114 @@
+@import url(home.css); 
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris_oscuro: #666;
+    --Gris_claro: #ebebeb;
+    --Verde: #39b54a;
+}
+body {
+    background-color: var(#fff);
+}
+.register-box {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    width: 100vw;
+}
+.nombre input{ 
+    display: block;
+    border-radius: 5px;
+    border:none;
+   height: 45px;
+   width: 300px;
+   margin:5px
+}
+.usuario input{ 
+    display: block;
+    border-radius: 5px;
+    border:none;
+   height: 45px;
+   width: 300px;
+   margin:5px
+}
+.email input{ 
+    display: block;
+    border-radius: 5px;
+    border:none;
+   height: 45px;
+   width: 300px;
+   margin:5px
+}
+.domicilio input{ 
+    display: block;
+    border-radius: 5px;
+    border:none;
+   height: 45px;
+   width: 300px;
+   margin:5px
+}
+.contraseña input{ 
+    display: block;
+    border-radius: 5px;
+    border:none;
+   height: 45px;
+   width: 300px;
+   margin: 20px;
+}
+.nombre, .usuario, .email, .domicilio, .fechaN .contraseña {
+    width: 100%;
+    height: 100%;
+    padding: 0.75rem 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox div input {
+    display: inline;
+    margin: 1rem;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+.boton-borrar-todo button {
+    color: #fff;
+    background:var(--Azul);
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.boton-registrarse button{
+    background:var(--Azul);
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.boton-registrarse:hover button{
+    background-color: var(--Gris_claro);
+    color: black;
+    cursor: pointer;
+    border: solid 1px black;
+    transition-duration: 400ms;
+}
+.boton-borrar-todo:hover button{
+    background-color: var(--Gris_claro);
+    color: black;
+    border: solid 1px black;
+    transition-duration: 400ms;
+}
