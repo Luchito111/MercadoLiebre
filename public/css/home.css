@@ -277,6 +277,7 @@ footer {
     flex-wrap: nowrap;
   }
 }
+/* ----------------------Desktop------------------------ */
 @media (min-width: 768px) {
   .productos {
     width: 22%;
