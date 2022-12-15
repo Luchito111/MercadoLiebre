@@ -25,7 +25,8 @@ body {
     border:none;
    height: 45px;
    width: 300px;
-   margin:5px
+   margin:5px;
+   outline:none
 }
 .usuario input{ 
     display: block;
@@ -33,7 +34,8 @@ body {
     border:none;
    height: 45px;
    width: 300px;
-   margin:5px
+   margin:5px;
+   outline:none
 }
 .email input{ 
     display: block;
@@ -41,7 +43,8 @@ body {
     border:none;
    height: 45px;
    width: 300px;
-   margin:5px
+   margin:5px;
+   outline:none
 }
 .domicilio input{ 
     display: block;
@@ -49,7 +52,8 @@ body {
     border:none;
    height: 45px;
    width: 300px;
-   margin:5px
+   margin:5px;
+   outline:none
 }
 .contraseña input{ 
     display: block;
@@ -58,6 +62,7 @@ body {
    height: 45px;
    width: 300px;
    margin: 20px;
+   outline:none
 }
 .nombre, .usuario, .email, .domicilio, .fechaN .contraseña {
     width: 100%;

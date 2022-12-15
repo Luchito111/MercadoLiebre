@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 :root {
     --Amarillo: #EAC926;
@@ -48,7 +49,8 @@ header {
 }
 .campo-busqueda input {
     width: 100%;
-    border: none
+    border: none;
+    outline:none
 }
 .lupa {
     background-color: white;
@@ -127,6 +129,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100vw;
+    padding-left: 20px;
 }
 .camionsito {
     border-top: solid 1px #ebebeb;
