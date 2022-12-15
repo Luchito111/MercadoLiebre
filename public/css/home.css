@@ -139,6 +139,7 @@ h3 {
     color: #39b54a;
     border: 1px solid #39b54a;
     border-radius: 50%;
+    transition: .3s color linear, .5s transform linear;
     /* position:absolute; */
 }
 .productos {
@@ -151,6 +152,8 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
 }
+
+
 .precio {
     font-size: 1.2rem;
     padding-right: 0.5rem;
@@ -177,7 +180,6 @@ h3 {
 img {
     max-width: 100%;
     vertical-align: top;
-    border-bottom: solid 1px #ebebeb;
 }
 .titular {
     font-size: 24px;
@@ -188,7 +190,22 @@ img {
 .precio-descuento {
     display: flex;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.visitas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.ofertas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 /* ----------------------------footer----------------------- */
 footer {
     background-color: white;
@@ -268,8 +285,11 @@ footer {
     }
     .productos:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        transition-duration: 400ms;
-
+        transition-duration: 400ms; 
+    }
+    .productos:hover .camionsito {
+        color: var(--Verde);
+        transform: translateX(6rem) rotate(360deg)
     }
     .productos:hover .nombre {
         display: block;
