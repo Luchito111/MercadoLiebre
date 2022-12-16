@@ -27,6 +27,12 @@ app.get('/login', (req,res)=>{
 })
 // Ponemos a escuchar el servidor
 
-app.listen(3033, () => {
-    console.log("Servidor corriendo en http://localhost:3033")
-});
+// app.listen(3033, () => {
+//     console.log("Servidor corriendo en http://localhost:3033")
+// });
+
+
+const port = process.env.PORT || 3001;
+app.listen(port, () => 
+    console.log(`Servidor corriendo en el puerto ${port}`
+));
